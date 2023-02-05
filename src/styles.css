@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}

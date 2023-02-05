@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Final assignment</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <span>
+        <div class="container">
+          <h1 id="clock" style="font-size: 3em;"></h1>
+          <h2 id="date"></h2>
+          <form id="login-form">
+            <input
+              required
+              maxlength="15"
+              type="text"
+              placeholder="What is your name?"
+            />
+            <button>Log In</button>
+          </form>
+          <h3 id="greeting" class="hidden"></h3>
+          <div id="weather">
+            <div></div>
+            <div>
+              <img />
+            </div>
+            <div id="city"></div>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div class="container">
+          <h3>Today's ToDo List!📝</h3>
+          <form id="todo-form">
+            <input required placeholder="Write a today's ToDo!" />
+          </form>
+          <ul id="todo-list" style="text-align: left;"></ul>
+        </div>
+      </span>
+    </div>
+    <script src="src/clock.js"></script>
+    <script src="src/Login.js"></script>
+    <script src="src/Todos.js"></script>
+    <script src="src/Bg.js"></script>
+    <script src="src/Weather.js"></script>
+  </body>
+</html>
