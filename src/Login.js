@@ -8,7 +8,8 @@ const HIDDEN_CLASS = "hidden";
 function onLoginSumit(event) {
   event.preventDefault();
   loginForm.classList.add(HIDDEN_CLASS);
-  const name = localStorage.setItem(NAME, loginInput.value);
+  const name = loginInput.value;
+  localStorage.setItem(NAME, name);
   paintHello(name);
 }
 function paintHello(name) {
